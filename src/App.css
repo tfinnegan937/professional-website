@@ -1,38 +1,74 @@
-.App {
+html, body{
+  background-color: #2f2c41;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  overflow: hidden
+}
+
+.page{
+  box-shadow: 0 0 0 50px #3d3d3d;
+  border-radius: 25px;
+  height: 100%;
+  overflow: auto;
+
+}
+
+.App{
+  height: 70%;
+  margin: 8% 15%;
+  box-sizing: border-box;
+}
+
+.tabletScreen{
+  background-image: url("public-domain-space.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  border-radius: 25px;
+  width: 98%;
+  height: 96%;
+  margin-left: 1%;
+  margin-top: 1%;
+  box-shadow: 0 0 0 80px #252525;
+  overflow: hidden;
+
+}
+
+.appButton{
+  margin: 1%;
+}
+
+
+.appIcon{
+  padding: 0;
+  min-width: 40px;
+  min-height: 40px;
+  max-width: 40px;
+
+}
+
+.appIcon button{
   text-align: center;
+  height: 100%;
+  width: 200%;
+  border-radius: 20px;
+  font-size: xxx-large;
+  padding-top: 25%;
+  padding-bottom: 25%;
+  position: relative;
+  margin-left: 25%;
+  margin-bottom: 20%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.appButton .appLabel{
+  font-family: Arial, serif;
+  font-size: 150%;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#homeScreen{
+  padding: 5%;
+  width: 100%;
+  overflow: hidden;
 }
